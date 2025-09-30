@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compteur...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="h" id="hour">00</div>
+        <span>:</span>
+        <div class="m" id="minut">00</div>
+        <span>:</span>
+        <div class="s" id="second">00</div>
+    </div>
+
+    <div class="controls">
+        <button class="startBtn" onclick="start()" value="0">start</button>
+        <button class="stopBtn" onclick="stop()">stop</button>
+        <button class="resetBtn" onclick="reset()">reset</button>
+        <!-- <button id="toggleMode()">Dark/light</button> -->
+    </div>
+
+    <audio id="beep" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg"></audio>
+    <script src="script.js" >
+
+    </script>
+</body>
+</html>
